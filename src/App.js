@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.scss";
+import ColorBox from "./components/ColorBox";
 
 const App = () => {
   return (
     <div className="app">
       <h1>Welcome to React Hooks!</h1>
+
+      <ColorBox />
     </div>
   );
 };
