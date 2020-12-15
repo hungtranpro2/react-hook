@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-import PropTypes from "prop-types";
 import "./ColorBox.scss";
-
-ColorBox.propTypes = {};
 
 const getRandomColor = () => {
   const COLOR_LIST = ["deeppink", "green", "yellow", "black", "blue"];
